@@ -13,7 +13,10 @@ void main(){
   pwd[i] = '\0';
   printf("/n password verfication under process. please wait...");
   delay(4000);
-  
+  if(strcmp(pwd,"abcd")==0)
+    printf("\n password correct!")
+  else
+    printf("\n password Incorrect!");
   
   getch();
   
