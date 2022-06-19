@@ -1,1 +1,1 @@
-# password-code
+This is simple password Program in C language
